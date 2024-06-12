@@ -1,0 +1,7 @@
+{
+  "name": "test-menu-ng-nomod",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
