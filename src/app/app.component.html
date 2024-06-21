@@ -3,9 +3,13 @@
     <ion-menu contentId="main-content" type="overlay">
       <ion-content>
         <ion-menu-toggle>
-          <ion-button aria-label="foo bar baz"
-            >Click to close the menu</ion-button
-          >
+          <ion-button aria-label="foo bar baz">
+            <ion-icon
+              aria-hidden="true"
+              name="close"
+              slot="icon-only"
+            ></ion-icon>
+          </ion-button>
         </ion-menu-toggle>
 
         <ion-list id="inbox-list">
@@ -20,7 +24,12 @@
                 size="small"
                 aria-label="this is a button"
               >
-                <ion-icon name="close" size="small" slot="icon-only"></ion-icon>
+                <ion-icon
+                  aria-hidden="true"
+                  name="close"
+                  size="small"
+                  slot="icon-only"
+                ></ion-icon>
               </ion-button>
             </ion-item>
           </ion-menu-toggle>
